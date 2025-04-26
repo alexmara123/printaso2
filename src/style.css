@@ -1,0 +1,103 @@
+/* style.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #111;
+  color: white;
+}
+
+.navbar .logo h1 {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  background-color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #007bff, #0069d9);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cta-button {
+  padding: 15px 40px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  background-color: white;
+  text-align: center;
+}
+
+/* Token Features */
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.feature-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer .social-links a {
+  color: white;
+  margin: 0 15px;
+  font-size: 18px;
+}
